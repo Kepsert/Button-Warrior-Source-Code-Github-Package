@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8046413295549953905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8046413295549953904}
+  - component: {fileID: 8046413295549953907}
+  - component: {fileID: 1783898623}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8046413295549953904
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8046413295549953905}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 525.6575, y: 960.2165, z: -9.121638}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8046413295549953907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8046413295549953905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93d8626bf8c7bc0499e28ff43e75f2d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameType: 3
+  scrollType: 0
+  feedback: 0
+  scoreButtonPrefab: {fileID: 6824686109998530158, guid: 61f64e19b9491e643bbc90da4e325ffb, type: 3}
+  ButtonPrefabs:
+  - {fileID: 3672687003453595471, guid: 43b42f2aac0eee74ea9f3095966b40cb, type: 3}
+  - {fileID: 3672687003453595471, guid: bb614184a34891d44b627f157cba218f, type: 3}
+  - {fileID: 3672687003453595471, guid: fa39762c267313a409e06fd67c4d922d, type: 3}
+  - {fileID: 4002657735994372381, guid: 9ecac059198ef2445b789da6517e40fd, type: 3}
+  - {fileID: 7521795064584099722, guid: 617da37413eb77c4c817113198dbe857, type: 3}
+  - {fileID: 3672687003453595471, guid: 43b42f2aac0eee74ea9f3095966b40cb, type: 3}
+  - {fileID: 4002657735994372381, guid: 9ecac059198ef2445b789da6517e40fd, type: 3}
+  panel: {fileID: 0}
+  scorePanel: {fileID: 0}
+  shopPanel: {fileID: 0}
+  levelSelectPanel: {fileID: 0}
+  spawnInterval: 25
+  level: 1
+  playerLevel: {fileID: 0}
+  enemiesLeftText: {fileID: 0}
+  livesText: {fileID: 0}
+  coinText: {fileID: 0}
+  maxLives: 17
+  expLevelText: {fileID: 0}
+  victoryPanel: {fileID: 0}
+  adventureResultText: {fileID: 0}
+  noUpgradesText: {fileID: 0}
+  nextAdventureButton: {fileID: 0}
+  worldMapButton: {fileID: 0}
+  tryAgainButton: {fileID: 0}
+  enemyPanelImage: {fileID: 0}
+  bottomLeftPanel: {fileID: 0}
+  fadeAnim: {fileID: 0}
+  worldStageText: {fileID: 0}
+  deathAnimationTime: 0.65
+  enemyAttackWarningText: {fileID: 0}
+  pulseNote1: {fileID: 0}
+  pulseNote2: {fileID: 0}
+  pulseNoteGreen: {fileID: 21300000, guid: ead3342d29bee444f84c75cae7b563ea, type: 3}
+  pulseNoteRed: {fileID: 21300000, guid: 93ef6195ce9c4204ca1a5241077a2366, type: 3}
+--- !u!114 &1783898623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8046413295549953905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c079d04b39ec0e843aa7029b47963afe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredStreak: 5
+  rhythmOn: 1
+  rhythmSlider: {fileID: 0}
+  RhythmSliderFill: {fileID: 0}
+  redSlider: {fileID: 21300000, guid: a824a1277101a3f43a3d4055ebf2cb3f, type: 3}
+  orangeSlider: {fileID: 21300000, guid: 8e9a79efdba62a241a323f135711df7e, type: 3}
+  greenSlider: {fileID: 21300000, guid: 73f2673b296147641a0db9b332c6545d, type: 3}
+  streakText: {fileID: 0}
+  bonusText: {fileID: 0}
